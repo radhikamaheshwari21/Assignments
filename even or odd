@@ -1,0 +1,7 @@
+//Program to find whether a number is even or odd
+let num = 20
+if num%2==0 {
+print("\(num) is an Even Number");
+}else{
+print("\(num) is an Odd Number")
+}
