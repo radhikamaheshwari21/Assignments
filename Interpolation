@@ -1,0 +1,4 @@
+//implement the interpolation to print the value within string
+let score1 = 80
+let score2 = 90
+print("Team 2 scored \(score2) runs which is greater than team 1 score which is \(score1)")
