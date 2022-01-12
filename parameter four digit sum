@@ -1,0 +1,7 @@
+//WAP to sum the digits of a number with four digits passed as parameter using function
+func sum(firstNumber: Int, secondNumber: Int, thirdNumber: Int, fourthNumber:Int) 
+{ 
+let result = firstNumber + secondNumber + thirdNumber + fourthNumber 
+print("The sum is \(result).")
+}
+sum(firstNumber: 12, secondNumber: 23,thirdNumber:34,fourthNumber:45)
