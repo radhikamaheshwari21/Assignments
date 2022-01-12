@@ -1,0 +1,4 @@
+//WAP to implement use of expression in string using concept of interpolation
+let score1 = 80
+let score2 = 90
+print("Team 2 scored \(score2) which is \(score2-score1) runs more than Team 1's score")
