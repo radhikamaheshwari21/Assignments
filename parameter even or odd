@@ -1,0 +1,10 @@
+//WAP to find the given number as parameter to function is even or odd 
+func number(number:Int) {
+    
+if number%2==0 {
+print("\(number) is an Even Number");
+}else{
+print("\(number) is an Odd Number")
+}
+}
+number(number: 765)
