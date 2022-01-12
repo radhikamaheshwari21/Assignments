@@ -1,0 +1,13 @@
+//WAP to take a year as parameter and find that the year is leap year or not
+func leapYear(year:Int) {
+    if year % 4 == 0{
+if year%100==0 && year%400==0{
+print("\(year) is a Leap Year")
+}else{
+print("\(year) is a Leap Year")
+}
+}else{
+print("\(year) is not a Leap Year")
+}
+}
+leapYear(year: 2000)
