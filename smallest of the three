@@ -1,0 +1,11 @@
+//If the ages of A,B and C are input through the keboard write a program to dtermine the smallest of the three
+let A = 34
+let B = 23
+let C = 32
+if A <= B && A <= C {
+ print("A is the smallest one")
+} else if B <= A && B <= C {
+ print("B is the smallest one")
+} else {
+ print("C is the smallest one")
+} 
