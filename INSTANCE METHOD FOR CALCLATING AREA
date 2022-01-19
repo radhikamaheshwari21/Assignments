@@ -1,0 +1,44 @@
+//WAP to implement instance method of calculating area for
+
+//1. RECTANGLE
+
+struct Size { 
+var length: Double
+var breadth: Double
+func area() ->Double {
+    length*breadth
+}
+} 
+var sizeOfRect = Size(length: 4.4, breadth: 6.6) 
+let area = sizeOfRect.area()
+print (area)
+
+
+
+//2. CIRCLE
+struct Size {
+    var radius: Double 
+    var pi:Double
+    func area() -> Double
+    {
+        2*pi*radius
+    }
+}
+var sizeOfCircle = Size(radius:4 ,pi:3.14)
+let area = sizeOfCircle.area()
+print (area)
+
+
+
+//3. SQUARE
+struct Size {
+    var side: Double 
+  
+    func area() -> Double
+    {
+        side*side
+    }
+}
+var sizeOfSq = Size(side:5.5)
+let area = sizeOfSq.area()
+print (area)
